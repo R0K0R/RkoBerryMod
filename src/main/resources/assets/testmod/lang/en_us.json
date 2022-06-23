@@ -1,6 +1,12 @@
 {
   "item.testmod.raw_rkonite": "Raw Rkonite",
   "item.testmod.rkonite": "Rkonite",
+  "item.testmod.blackjewel": "Blackjewel",
+  "item.testmod.tanzanite": "Tanzanite",
+  "item.testmod.raw_tanzanite": "Raw Tanzanite",
+
+  "item.testmod.rkonite_sword": "Rkonite Sword",
+
 
   "itemGroup.testmod.testmod" : "testmod tab",
 

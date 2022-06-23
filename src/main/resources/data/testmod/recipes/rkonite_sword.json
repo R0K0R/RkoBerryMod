@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "#",
+    "#",
+    "/"
   ],
   "key": {
     "#": {
       "item": "testmod:rkonite"
+    },
+    "/": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "testmod:rkonite_block"
+    "item": "testmod:rkonite_sword"
   }
 }

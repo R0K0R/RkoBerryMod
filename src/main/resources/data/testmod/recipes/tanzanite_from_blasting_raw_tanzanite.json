@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "exeperience": 0.7,
+  "group": "rkonite",
+  "ingredient": {
+    "item": "testmod:raw_tanzanite"
+  },
+  "result": "testmod:tanzanite"
+}

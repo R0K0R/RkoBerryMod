@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "testmod:item/rkonite_sword"
+    "layer0" : "testmod:item/blackjewel"
   }
 }
