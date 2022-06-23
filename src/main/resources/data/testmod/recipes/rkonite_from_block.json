@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testmod:rkonite_block"
+    }
+  ],
+  "result": {
+    "item": "testmod:rkonite",
+    "count": 9
+  }
+}

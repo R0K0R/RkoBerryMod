@@ -1,0 +1,12 @@
+{
+  "item.testmod.raw_rkonite": "Raw Rkonite",
+  "item.testmod.rkonite": "Rkonite",
+
+  "itemGroup.testmod.testmod" : "testmod tab",
+
+  "block.testmod.rkonite_block": "Block of Rkonite",
+  "block.testmod.rkonite_ore": "Rkonite Ore",
+  "block.testmod.deepslate_rkonite_ore": "Deepslate Rkonite Ore",
+  "block.testmod.endstone_rkonite_ore": "Endstone Rkonite Ore",
+  "block.testmod.netherrack_rkonite_ore": "Netherrack Rkonite Ore"
+}

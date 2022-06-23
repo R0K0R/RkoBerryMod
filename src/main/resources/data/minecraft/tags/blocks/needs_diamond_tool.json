@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:rkonite_block",
+    "testmod:rkonite_ore",
+    "testmod:deepslate_rkonite_ore",
+    "testmod:netherrack_rkonite_ore",
+    "testmod:endstone_rkonite_ore"
+  ]
+}

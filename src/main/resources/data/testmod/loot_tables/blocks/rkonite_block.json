@@ -1,0 +1,14 @@
+{
+  "type": "rkonite_block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "testmod:rkonite_block"
+        }
+      ]
+    }
+  ]
+}
