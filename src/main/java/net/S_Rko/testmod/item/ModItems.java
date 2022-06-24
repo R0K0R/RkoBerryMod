@@ -17,6 +17,7 @@ public class ModItems {
     public static final Item TANZANITE = registerItem("tanzanite", new Item(new FabricItemSettings().group(ModItemGroup.TESTMOD)));
     public static final Item RAW_TANZANITE = registerItem("raw_tanzanite", new Item(new FabricItemSettings().group(ModItemGroup.TESTMOD)));
     public static final Item BLACKJEWEL_SWORD = registerItem("blackjewel_sword", new SwordItem(BlackjewelToolMaterial.INSTANCE, 2, 3F, new Item.Settings().group(ModItemGroup.TESTMOD)));
+    public static final Item BLACKJEWEL_SHOVEL = registerItem("blackjewel_shovel", new ShovelItem(BlackjewelToolMaterial.INSTANCE, -1F, 2.5F, new Item.Settings().group(ModItemGroup.TESTMOD)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(testmod.MOD_ID, name), item);
