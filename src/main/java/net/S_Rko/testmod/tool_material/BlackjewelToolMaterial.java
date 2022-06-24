@@ -5,6 +5,9 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public class BlackjewelToolMaterial implements ToolMaterial {
+
+    public static final RkoniteToolMaterial INSTANCE = new RkoniteToolMaterial();
+
     @Override
     public int getDurability() {
         return 1631;

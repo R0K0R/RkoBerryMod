@@ -1,6 +1,7 @@
 package net.S_Rko.testmod.item;
 
 import net.S_Rko.testmod.testmod;
+import net.S_Rko.testmod.tool_material.BlackjewelToolMaterial;
 import net.S_Rko.testmod.tool_material.RkoniteToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
@@ -15,6 +16,7 @@ public class ModItems {
     public static final Item BLACKJEWEL = registerItem("blackjewel", new Item(new FabricItemSettings().group(ModItemGroup.TESTMOD)));
     public static final Item TANZANITE = registerItem("tanzanite", new Item(new FabricItemSettings().group(ModItemGroup.TESTMOD)));
     public static final Item RAW_TANZANITE = registerItem("raw_tanzanite", new Item(new FabricItemSettings().group(ModItemGroup.TESTMOD)));
+    public static final Item BLACKJEWEL_SWORD = registerItem("blackjewel_sword", new SwordItem(BlackjewelToolMaterial.INSTANCE, 2, 3F, new Item.Settings().group(ModItemGroup.TESTMOD)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(testmod.MOD_ID, name), item);
